@@ -1,0 +1,24 @@
+{
+  "name": "hatearmy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "luxon": "^1.27.0",
+    "mongodb": "^3.6.8",
+    "nodemon": "^2.0.14",
+    "puppeteer": "^9.1.1"
+  },
+  "scripts": {
+    "start": "node start-server",
+    "dev": "nodemon start-server",
+    "debug": "node --inspect-brk start-server"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
